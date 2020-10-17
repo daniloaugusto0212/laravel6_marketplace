@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="container">
-        @include('flash/:messsage')
+        @include('flash::message')
         @yield('content')
     </div>
     <!-- Optional JavaScript -->

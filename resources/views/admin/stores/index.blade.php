@@ -7,7 +7,7 @@
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>#</th>
+                <th>ID</th>
                 <th>Loja</th>
                 <th>Ações</th>
             </tr>
