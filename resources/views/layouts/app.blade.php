@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
     <head>
-        <title>Marketplace L6</title>
+        <title>Marketplace</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -32,6 +32,9 @@
                             <form action="{{route('logout')}}" class="logout" method="post" style="display: none;" >
                                 @csrf
                             </form>
+                            </li>
+                            <li class="nav-item">
+                                <span class="nav-link">{{auth()->user()->name}}</span>
                             </li>
                         </ul>
                     </div>
